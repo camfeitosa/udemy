@@ -1,4 +1,5 @@
-let nomes = ['Camila', 'Murilo', 'Aki']
+const nomes = ['Camila', 'Murilo', 'Aki']
+console.log(nomes)
 
 // adiciona no começo
 nomes.unshift('Agatha') 

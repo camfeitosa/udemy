@@ -4,3 +4,4 @@ let typed = new Typed(".auto-type", {
     backSpeed: 160,
     loop: true
 })
+
