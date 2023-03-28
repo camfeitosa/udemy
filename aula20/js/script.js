@@ -6,7 +6,9 @@ function meuEscopo (){
     const form = document.querySelector('.form'); // selecionar pela tag, class, id
     const resultado = document.querySelector('.resultado')
 
-//let contador = 1
+    const pessoas = []
+
+
 function recebeEventoForm(evento){
     evento.preventDefault() // previne oq era para acontecer por padrão = não envia o form
     const nome = form.querySelector('.nome')
@@ -14,12 +16,21 @@ function recebeEventoForm(evento){
     const peso = form.querySelector('.peso')
     const altura = form.querySelector('.altura')
 
-    console.log(nome.value)
+    //console.log(nome.value)
+    //console.log(pessoas)
+    //p de resultado
 
+    pessoas.push({
+        nome: nome.value,
+        sobrenome: sobrenome.value,
+        peso: peso.value,
+        altura: altura.value,
+    });
 
-    // evento.preventDefault() // previne oq era para acontecer por padrão = não envia o form
-    // console.log(`Não enviado ${contador}`)
-    // contador++
+    console.log(pessoas)
+
+    resultado.innerHTML += `<p>${nome.value} ${sobrenome.value}` +
+    ` ${peso.value} ${altura.value}</p>`
 }
     form.addEventListener('submit', recebeEventoForm) 
 }
