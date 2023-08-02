@@ -15,7 +15,6 @@ let temp = num1 * 'Olá'
 console.log(temp)
 console.log(Number.isNaN(temp)) // esse número é NaN ou não
 
-
 num1 = parseFloat(num1.toFixed(2)) //somar corretamente 
 num1 = Number(num1.toFixed(2)) //somar
 

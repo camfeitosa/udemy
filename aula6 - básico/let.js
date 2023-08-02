@@ -18,5 +18,6 @@ let nomecliente = "Joey"
 console.log(nomeCliente);
 console.log(nomecliente);
 
+console.log(oi)
 // Não podemos redeclarar variáveis com let
 // NÃO UTILIZAR VAR, UTILIZE LET
