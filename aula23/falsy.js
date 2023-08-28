@@ -9,7 +9,7 @@ NaN
 
 || -> false || true 
 
-
+ 
 */
 
 console.log('Luiz' && null && 'Maria')

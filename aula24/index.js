@@ -4,7 +4,7 @@ entre 0 - 11 = Bom dia
 18 - 23 = boa noite
 */
 
-const hora = 90
+const hora = 100
 
 if (hora >= 0 && hora <= 11){
     console.log('bom dia')
@@ -16,7 +16,7 @@ if (hora >= 0 && hora <= 11){
     console.log('[ERRO]Hora não existe')
 }
 
-const tenhoDinheiro = true
+const tenhoDinheiro = false
 
 if(tenhoDinheiro){
     console.log('Vou sair de casa')
